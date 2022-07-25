@@ -5,6 +5,6 @@ import { memo } from 'react';
 
 type Props = {};
 
-export const <%= name %> = memo<Props>(function <%= name %>({}) {
+export const <%= componentType == 'pages' ? `${name}Page` : name %> = memo<Props>(function <%= componentType == 'pages' ? `${name}Page` : name %>({}) {
   return null;
 })
