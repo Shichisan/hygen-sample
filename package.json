@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "components": "yarn run hygen components new"
+    "components": "yarn run hygen components new",
+    "globalStates": "yarn run hygen globalStates new"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.2.4",
